@@ -34,12 +34,7 @@ namespace ZugloNetFixer.ViewModel
         private void loadApps()
         {
             Applications = new ObservableCollection<ApplicationViewModel>();
-            Applications.Add(new ApplicationViewModel(new AppLayer.Application(@"C:\Program Files (x86)\obs-studio\bin\64bit\obs64.exe", "OBS studio 64")));
-            Applications.Add(new ApplicationViewModel(new AppLayer.Application(@"C:\Program Files (x86)\obs-studio\bin\32bit\obs32.exe", "OBS studio 32")));
-            Applications.Add(new ApplicationViewModel(new AppLayer.Application(@"H:\SteamLibrary\steamapps\common\Age2HD\Launcher.exe", "Age of Empires 2")));
-            Applications.Add(new ApplicationViewModel(new AppLayer.Application(@"c:\Program Files (x86)\Google\Chrome\Application\chrome.exe", "Google Chrome")));
-            Applications.Add(new ApplicationViewModel(new AppLayer.Application(@"C:\Users\balaz\AppData\Roaming\uTorrent\uTorrent.exe", "uTorrent")));
-            Applications.Add(new ApplicationViewModel(new AppLayer.Application(@"C:\Program Files (x86)\Voobly\voobly.exe", "Voobly")));
+            // todo make possible to add apps
         }
 
         public void AddApp(string path, string name)

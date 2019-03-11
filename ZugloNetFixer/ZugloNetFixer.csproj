@@ -70,7 +70,7 @@
     <Compile Include="Utils\DebugLog.cs" />
     <Compile Include="Utils\Error.cs" />
     <Compile Include="Utils\ExtensionMethods.cs" />
-    <Compile Include="Utils\Ip.cs" />
+    <Compile Include="NetworkLayer\Ip.cs" />
     <Compile Include="ViewModel\ApplicationViewModel.cs" />
     <Compile Include="ViewModel\MainViewModel.cs" />
     <Compile Include="ViewModel\NetworkAdapterViewModel.cs" />
